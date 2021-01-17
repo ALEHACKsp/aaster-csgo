@@ -1,20 +1,19 @@
 <br />
 <p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/tokei/lines/github/ny-4/aaster-csgo?style=plastic">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/appveyor/build/ny-4/aaster-csgo?style=plastic&logo=appveyor">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/github/license/ny-4/aaster-csgo?style=plastic">
-  </a>
-</p>
-<br />
-<p align="center">
   <a href="https://github.com/ny-4/aaster-csgo/">
     <img src="branding/github-splash.png">
   </a>
+  <p align="center">
+    <a href="#">
+      <img src="https://img.shields.io/tokei/lines/github/ny-4/aaster-csgo?style=plastic">
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/appveyor/build/ny-4/aaster-csgo?style=plastic&logo=appveyor">
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/github/license/ny-4/aaster-csgo?style=plastic">
+    </a>
+  </p>
 
   <h3 align="center">aaster-csgo</h3>
 
