@@ -20,7 +20,7 @@
   <p align="center">
     Open-source feature rich cheat for Counter-Strike: Global Offensive
     <br />
-    <a href="https://github.com/ny-4/aaster-csgo/#"><strong>Download latest build »</strong></a>
+    <a href="https://ci.appveyor.com/project/ny-4/aaster-csgo/build/artifacts"><strong>Download latest build »</strong></a>
     <br />
     <br />
     <a href="https://github.com/ny-4/aaster-csgo/#">View Screenshots</a>
