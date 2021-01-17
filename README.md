@@ -14,9 +14,6 @@
       <img src="https://img.shields.io/github/license/ny-4/aaster-csgo?style=plastic">
     </a>
   </p>
-
-  <h3 align="center">aaster-csgo</h3>
-
   <p align="center">
     Open-source feature rich cheat for Counter-Strike: Global Offensive
     <br />
