@@ -4,13 +4,13 @@
     <img src="branding/github-splash.png">
   </a>
   <p align="center">
-    <a href="#">
+    <a href="https://github.com/ny-4/aaster-csgo/tree/main/aaster">
       <img src="https://img.shields.io/tokei/lines/github/ny-4/aaster-csgo?style=plastic">
     </a>
-    <a href="#">
+    <a href="https://ci.appveyor.com/project/ny-4/aaster-csgo">
       <img src="https://img.shields.io/appveyor/build/ny-4/aaster-csgo?style=plastic&logo=appveyor">
     </a>
-    <a href="#">
+    <a href="https://github.com/ny-4/aaster-csgo/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/Licence-Apache%202.0-orange.svg?style=plastic">
     </a>
   </p>
