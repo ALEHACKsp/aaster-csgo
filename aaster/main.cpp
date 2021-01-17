@@ -37,7 +37,7 @@ DWORD WINAPI OnDllAttach(LPVOID lpParameter)
 
 		#ifdef DEBUG_CONSOLE
 		// console logging
-		if (!L::Attach(XorStr("aaster developer console")))
+		if (!L::Attach(XorStr("aaster dev console")))
 			throw std::runtime_error(XorStr("failed to attach console"));
 
 		L::Print(XorStr("console opened"));
