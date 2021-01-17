@@ -11,7 +11,7 @@
       <img src="https://img.shields.io/appveyor/build/ny-4/aaster-csgo?style=plastic&logo=appveyor">
     </a>
     <a href="https://github.com/ny-4/aaster-csgo/blob/main/LICENSE">
-      <img src="https://img.shields.io/badge/Licence-Apache%202.0-orange.svg?style=plastic">
+      <img src="https://img.shields.io/badge/License-Apache%202.0-orange.svg?style=plastic">
     </a>
   </p>
   <p align="center">
