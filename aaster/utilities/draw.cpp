@@ -280,7 +280,7 @@ bool ImGui::Checkbox(const char* szLabel, std::vector<bool>& vecValues, int nInd
 bool ImGui::SliderFloat(const char* szLabel, std::vector<float>& vecValues, int nIndex, float flMin, float flMax, const char* szFormat, float flPower)
 {
 	float flValue = vecValues[nIndex];
-	const bool bValueChanged = SliderFloat(szLabel, &flValue, flMin, flMax, szFormat, flPower);
+	const bool bValueChanged = SliderFloat(szLabel, &flValue, flMin, flMax, szFormat);
 
 	if (vecValues[nIndex] != flValue)
 		vecValues[nIndex] = flValue;
@@ -391,10 +391,6 @@ void D::Setup(IDirect3DDevice9* pDevice, unsigned int uFontFlags)
 	style.Colors[ImGuiCol_FrameBgHovered] = ImVec4(0.22f, 0.00f, 0.40f, 1.00f);			// accent 1
 	style.Colors[ImGuiCol_FrameBgActive] = ImVec4(0.55f, 0.15f, 0.90f, 1.00f);			// accent 0
 
-	style.Colors[ImGuiCol_ControlBg] = ImVec4(0.11f, 0.14f, 0.20f, 1.00f);				// primtv 3
-	style.Colors[ImGuiCol_ControlBgHovered] = ImVec4(0.30f, 0.30f, 0.30f, 1.00f);		// primtv 5
-	style.Colors[ImGuiCol_ControlBgActive] = ImVec4(0.75f, 0.75f, 0.75f, 0.10f);		// primtv 2
-
 	style.Colors[ImGuiCol_TitleBg] = ImVec4(0.55f, 0.15f, 0.90f, 0.20f);				// accent 0
 	style.Colors[ImGuiCol_TitleBgActive] = ImVec4(0.22f, 0.00f, 0.40f, 0.50f);			// accent 1
 	style.Colors[ImGuiCol_TitleBgCollapsed] = ImVec4(0.22f, 0.00f, 0.40f, 0.20f);		// accent 1
@@ -439,7 +435,6 @@ void D::Setup(IDirect3DDevice9* pDevice, unsigned int uFontFlags)
 	style.Colors[ImGuiCol_PlotHistogramHovered] = ImVec4(0.55f, 0.15f, 0.90f, 0.50f);	// accent 0
 
 	style.Colors[ImGuiCol_DragDropTarget] = ImVec4(0.30f, 0.20f, 0.40f, 0.80f);			// accent 3
-	style.Colors[ImGuiCol_Triangle] = ImVec4(0.55f, 0.15f, 0.90f, 1.00f);				// accent 0
 
 	style.Colors[ImGuiCol_ModalWindowDimBg] = ImVec4(0.00f, 0.00f, 0.00f, 0.25f);		// primtv 4
 	#pragma endregion

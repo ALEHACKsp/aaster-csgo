@@ -70,7 +70,7 @@ namespace C // @credits: ducarii
 	// Get
 	/* return variable index by hashed name */
 	std::size_t GetVariableIndex(const FNV1A_t uNameHash);
-	/* get path where output files will be saved (default: "%userprofile%\documents\.qo0") */
+	/* get path where output files will be saved (default: "%userprofile%\documents\.aaster") */
 	std::filesystem::path GetWorkingPath();
 
 	/* returns casted variable at given index */

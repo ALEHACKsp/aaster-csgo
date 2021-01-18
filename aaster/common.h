@@ -98,6 +98,8 @@
 #include "../dependencies/imgui/imgui.h"
 #include "../dependencies/imgui/imgui_freetype.h"
 
+#define IMGUI_DEFINE_MATH_OPERATORS
+
 /* imgui implementation */
 #include "../dependencies/imgui/imgui_internal.h"
 #include "../dependencies/imgui/dx9/imgui_impl_dx9.h"

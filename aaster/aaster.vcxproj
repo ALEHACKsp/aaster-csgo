@@ -129,6 +129,7 @@
     <ClCompile Include="..\dependencies\imgui\cpp\imgui_stdlib.cpp" />
     <ClCompile Include="..\dependencies\imgui\dx9\imgui_impl_dx9.cpp" />
     <ClCompile Include="..\dependencies\imgui\imgui.cpp" />
+    <ClCompile Include="..\dependencies\imgui\imgui_demo.cpp" />
     <ClCompile Include="..\dependencies\imgui\imgui_draw.cpp" />
     <ClCompile Include="..\dependencies\imgui\imgui_freetype.cpp" />
     <ClCompile Include="..\dependencies\imgui\imgui_widgets.cpp" />

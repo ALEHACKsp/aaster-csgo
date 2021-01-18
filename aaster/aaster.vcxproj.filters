@@ -124,6 +124,9 @@
     <ClCompile Include="sdk\hash\md5.cpp">
       <Filter>source\sdk\hash</Filter>
     </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\imgui_demo.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dependencies\imgui\cpp\imgui_stdlib.h">

@@ -24,6 +24,8 @@
 // used: hooks setup/destroy
 #include "core/hooks.h"
 
+#define UNHOOK_FILE_NAME = "aasterunhook"
+
 DWORD WINAPI OnDllAttach(LPVOID lpParameter)
 {
 	try
@@ -37,7 +39,7 @@ DWORD WINAPI OnDllAttach(LPVOID lpParameter)
 
 		#ifdef DEBUG_CONSOLE
 		// console logging
-		if (!L::Attach(XorStr("aaster dev console")))
+		if (!L::Attach(XorStr("aaster developer console")))
 			throw std::runtime_error(XorStr("failed to attach console"));
 
 		L::Print(XorStr("console opened"));
