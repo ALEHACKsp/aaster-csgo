@@ -27,3 +27,5 @@
     <a href="https://github.com/ny-4/aaster-csgo/issues">Request Feature</a>
   </p>
 </p>
+
+i have this super smart (dumb) idea to try and port this over to macos later. I have seen some projects for macos that appear to be very similar in architecture to windows based cheats and i think it should be doable (just look at osiris on linux.) Windows is the priority first and foremost obviously.
